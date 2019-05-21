@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+marquee{
+    background-color: #ed484c;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 13px
+}
+ul li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #4c4c4c;
+
+}
+#lnk{
+    display: flex;
+    flex-direction: row; 
+    font-size: 20px;
+}
+a{
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    margin: 15px
+}
+a:hover{
+    color: white;
+}
+#logo{
+    width: 60px;;
+    height: 2em;
+    padding: 7px;
+}
+#front{
+    background-image: url(floral/floral.png);
+    background-color: #f18d97;
+    height: 350px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 7vh;
+    border-bottom: 1px;
+}
+
+#front{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.pera{
+    border-top:1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+
+    padding: 20px;
+}
+#btn{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    color: #d7777d;
+    border-color: transparent;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn:hover{
+    background-color: rgb(209, 95, 152);
+    color: black;
+}
+/* our service */
+.service{
+    background-image: url(floral/floral.png);
+    background-color: #efece7;
+    height: 55%;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+i{
+    font-size: 90px;
+}
+#css , #js{
+    margin: 66px;
+}
+#css:hover i , #js:hover i , #html:hover i{
+    color: red;
+}
+#h2{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+h3{
+    font-style: bold;
+    font-size: 3vh;
+    text-align: center;
+}
+/* portfolio */
+#portfolio{
+    background-image: url(floral/floral.png);
+    background-color: #ddceb4;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+#portfolio p{
+    font-size: 1.5em;
+    padding: 30px;
+}
+section p{
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    font-size: 3vh;
+}
+#figuress{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-auto-rows: 150px 100px 100px; 
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    padding-bottom: 200px;
+}
+/* contact us */
+#last{
+    background-image: url(floral/floral.png);
+    background-color: #afc7c6;
+    padding-top: 20px;
+    height: 150px;
+}
+#icn i{
+    padding-right: 30px
+}
+#icn i{
+    
+    font-size:2em;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#icn i:hover{
+    color: #ddceb4;
+    background-color:black;
+    transition: 0.5s;
+}
+#last h2{
+    text-align: center;
+    font-size: 4vh;
+
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 23px;
+    height: 14px;
+}
+.fa-heart{
+    font-size: 18px;
+}
+
+footer i{
+    margin: 0 9px;
+}
+
+footer:hover i{
+    color: #ed484c;
+}
